@@ -1,3 +1,5 @@
+/* A program that reads a string (max length of the string: 200 numbers including '\0') and shows the words of the given string (every word in a new line) by alphabetical order. */
+
 #include <stdio.h>
 #include <string.h>
 #define mr 200
@@ -17,26 +19,8 @@ int main() {
         row++;
         coll=0;
       }
-      /*if (coll==0) {
-        s2[row][coll]=s[i];
-      }
-      else {
-        coll++;
-        s2[row][coll]=s[i];
-      }
-      if ((s[i+1]<'A' || s[i+1]>'Z') && (s[i+1]<'a' || s[i+1]>'z')) {
-        row++;
-        coll=0;
-      }*/
     }
   }
-  /*for (i=0;i<row;i++) {
-    for (j=0;j<100;j++)
-      if (s2[i][j]!=' ') 
-       printf("%c", s2[i][j]);
-    printf("\n");
-  }
-  return 0; */
   for (i=0;i<row-1;i++) {
     for (j=0;j<row-i-1;j++) {
       if (strcmp(s2[j],s2[j+1])>0) {
