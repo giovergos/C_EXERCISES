@@ -1,3 +1,8 @@
+/* A program that reads an integer number and shows:
+1. "Wrong Input" if the number is smaller than one.
+2. "Yes" if the number is prime and it cant be a result of any number's summary of digits plus the same number.
+3. "No" in any other case. */
+
 #include <stdio.h>
 #include <math.h>
 
