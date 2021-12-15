@@ -1,3 +1,6 @@
+/* A program that reads a natural number (>0). If this number is negative or zero, the program ends by showing the message "Wrong Input". Else, it calculates the summary of the number's digits.
+Then it does the same work for the summary and repeats till the summary becomes single digit. The program shows by an order and seperated by space the number of times that it calculated summaries and the final single digit summary. */
+
 #include <stdio.h>
 #include <math.h>
 
