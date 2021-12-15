@@ -1,3 +1,5 @@
+/* A program that solves the problem of the famous game "Hanoi Towers" with three poles for N discs. */
+
 #include <stdio.h>
 
 void move(int, int, int, int);
