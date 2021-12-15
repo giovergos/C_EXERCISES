@@ -1,3 +1,5 @@
+/* A program that reads an integer number (i.e. x), calculates and shows the result (float number) of the following function: f(x)=(x^2-3)/(x-3). */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
