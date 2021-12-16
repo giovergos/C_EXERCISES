@@ -1,3 +1,9 @@
+/* A program that reads integer numbers and shows the result of the following recursion function till the user gives a negative number (and the program stops):
+f(x)=	undefined, x<0
+	2, x=0
+	3, x=1
+	2f(x-1)+3f(x-2), x>1 */
+
 #include <stdio.h>
 
 int f(int x) {
