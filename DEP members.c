@@ -1,3 +1,9 @@
+/* A program that handles a phone catalogue of a university's DEP members. For every member is needed:
+a) the first and second name (string with 30 characters)
+b) the rank and the 5-digit phone number
+The program reads the number of DEP members (N<50) and then reads the data of N members and shows the catalogue sorted by phone number (in ascending order).
+For sorting Bucket Sort algorithm should be used. */
+
 #include <stdio.h>
 #include <string.h>
 
