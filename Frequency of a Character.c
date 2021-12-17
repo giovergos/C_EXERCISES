@@ -1,3 +1,6 @@
+/* A program that reads a string. The reading stops when the string has 100 character or the new line character. Then it shows the character with the highest frequency in the string.
+If there are more than one characters with the same highest frequency, the program shows the character with the lowest position in ASCII table. */
+
 #include <stdio.h>
 #include <string.h>
 
