@@ -1,3 +1,6 @@
+/* A program that reads an integer number dec and if dec is on limits (0<=dec<=65535) the program shows dec's binary representation using the least number of bits (there are no zeros in front of the number).
+If dec is off limits the program shows "Wrong Input" and ends. */
+
 #include <stdio.h>
 
 int main(void) {
