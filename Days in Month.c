@@ -1,3 +1,5 @@
+/* A program that reads an integer number (considering it is on limits [1,12]) and shows the number of the corresponding month's days. */
+
 #include <stdio.h>
 
 int main() {
