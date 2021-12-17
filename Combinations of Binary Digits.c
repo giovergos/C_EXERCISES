@@ -1,3 +1,6 @@
+/* A program that reads two natural numbers A and Z. It calls a recursional function which counts and returns the number of different binary numbers that can be made with A aces and Z zeros.
+In case that at least one of the two numbers is negative, the program ends and shows "Wrong Input". */
+
 #include <stdio.h>
 
 int foo(int A, int Z, int x) {
