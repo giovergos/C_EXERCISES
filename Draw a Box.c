@@ -1,8 +1,8 @@
 /* A program that draws squares using '*' and spaces. It reads two integer numbers:
 N, the side of the square (integer number between [2,13]
 w, the thickness of the square's walls (inetger number >=1)
-The program checks if N and w are not off the limits and if a square can be drawn with these values. For example if N is 6 and w is 4, a square can't be drawn beacuse the side is 8 (4+4) which is bigger of the total side of the square (6).
-If the values are off the limits or a square can't be drawn the program shows "Wrong Input" and ends. Otherwise, it draws the specific square.  */
+The program checks if N and w are not off limits and if a square can be drawn with these values. For example if N is 6 and w is 4, a square can't be drawn beacuse the side is 8 (4+4) which is bigger of the total side of the square (6).
+If the values are off limits or a square can't be drawn the program shows "Wrong Input" and ends. Otherwise, it draws the specific square.  */
 
 #include<stdio.h>
 
