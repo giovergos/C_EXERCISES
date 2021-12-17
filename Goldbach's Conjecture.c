@@ -1,4 +1,9 @@
+/* A program that reads an integer number N. If N is even and bigger than 2, the program finds the smaller integer number p to: p is a prime number and the number q=N=p is also a prime number (Goldbach's Conjecture). The program shows:
+a) if N is even and bigger than 2: p+q=N
+b) if N is not even or smaller than/equals to 2: Wrong Input */
+
 #include <stdio.h>
+
 int main(void) {
   long int N,p,q,i,k,prime,flag=0;
   scanf("%ld", &N);
