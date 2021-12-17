@@ -1,3 +1,8 @@
+/* A program that reads an integer number N (0<N<=1000) and then also reads N integer numbers. The program has to shows in two different lines:
+a) the average of the numbers (float number with one decimal digit)
+b) the absolute average deviation over the average of the numbers (float number with one decimal digit)
+The absolute average deviation is the summary of the absolute difference every's number with the average value divided by the number of the digits. */
+
 #include <stdio.h>
 #include <stdlib.h>
 
