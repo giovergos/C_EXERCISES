@@ -1,3 +1,6 @@
+/* A program that reads an integer number N (1<=N<=100) and then reads N strings (max length 50 characters each one). The program finds the string with the shortest length (Smin) and then limit the others so they will have the same length with Smin. At the end it shows the limited strings with the opposite sequence than the reading one.
+Note: consider that the strings don't include whitespace characters. */
+
 #include <stdio.h>
 #include <string.h>
 
