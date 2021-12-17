@@ -1,3 +1,5 @@
+/* A program that reads an integer number (considering it's positive) and shows the digits of the number seperated by space. */
+
 #include <stdio.h>
 #include <math.h>
 
