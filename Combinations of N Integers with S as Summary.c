@@ -1,3 +1,5 @@
+/* A program that reads two natural numbers (n,s). It shows the number of different combinations n single-digit numbers (zero not included) that their summary equals to s. */
+
 #include <stdio.h>
 #include <math.h>
 
@@ -22,18 +24,6 @@ int main() {
         printf("0");
     }
     else {
-    /*if (s%2==0) {
-      end=s/n;
-      for (int l=1;l<n;l++) {
-      end=end*10+(s/n);
-    }
-    }
-    else {
-      end=s+1/n;
-      for (int l=1;l<n;l++) {
-        end=end*10+(s+1/n);
-    }
-    }*/
     end=9;
     for (int k=1;k<n;k++)
       end=end*10+9;
@@ -61,14 +51,12 @@ int main() {
       if (f==1) {
       if (d==1) {
         k=i;
-        //int test=k;
         int sum=0;
         while (k>0) {
           sum+=k%10;
           k/=10;
         }
         if (sum==s)
-          //printf("%d\n", test);
           pl++;
       }
       }
