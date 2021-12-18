@@ -1,3 +1,8 @@
+/* A program that reads two strings (max length 100 characters) and checks if they are consist of lower case latin characters and if the second one is an anagram of the first one. The program shows:
+"Wrong Input", if any of the two strings includes other character than lower case latin letters
+"Yes", if the one is an anagram of the other one
+"No", in any other case */
+
 #include <stdio.h>
 #include <string.h>
 
