@@ -1,3 +1,7 @@
+/* A program that reads a string (max length 100 characters) and founds the character which appears the most consecutive times in the string. (Calculate the consecutive times not the total)
+The program shows the number of character's appearances with the most consecutive times appear, and the same character.
+In the case that there are more than one characters with the max consecutive appearances, the program shows the character that appears first. */
+
 #include <stdio.h>
 #include <string.h>
 
@@ -21,9 +25,7 @@ int main() {
         maxon=s[i-1];
       }
       pl=0;
-      //if (s[i]!=' ') {
         pl++;
-      //}
     }
   }
   printf("%d %c", max, maxon);
