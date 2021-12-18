@@ -1,3 +1,9 @@
+/* A program that reads a non negative integer number N (0<=N<=100) and then reads N integer numbers that they will be saved in an array A. Then the program reads characters and stops when the user gives 'q' as an input. If the character is:
+'a', it reads an integer number k and add it at the end of A
+'d', it reads an integer number p and deletes from the array the integer at the p position
+'i', it reads two integer numbers k and p, and adds the k number in the p position of the array
+When the user gives 'q', the program shows the edited array and ends (array must be shown with one element per line). */
+
 #include <stdio.h>
 
 int main() {
