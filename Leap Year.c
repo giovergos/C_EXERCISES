@@ -1,3 +1,8 @@
+/* A program that reads a year (integer number >0) and checks if it is leap or not. The program shows:
+"Leap", if the year is leap
+"Normal", if it is not
+"Wrong Input", if the year is off limits (<=0) */
+
 #include <stdio.h>
 
 int main(void) {
