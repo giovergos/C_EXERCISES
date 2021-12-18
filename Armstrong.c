@@ -1,3 +1,8 @@
+/* A program that reads a natural number (integer >0) and shows if the number is Armstrong or not. The program reads an integer N and shows:
+1) "Wrong Input" and ends if N<=0
+2) "yes" if the number is Armstrong
+3) "no" in any other case */
+
 #include <stdio.h>
 #include <math.h>
 
