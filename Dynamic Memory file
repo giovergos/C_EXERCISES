@@ -1,3 +1,18 @@
+/*Create a file named 'funcs.h' which includes two functions (findPrimes and printArray) to be compiled with main.
+The program has to read two integer numbers min and max, and shows the prime numbers which are included in this set [min,max].
+Main is already given. Note: You have to use dynamic memory allocation.
+#include <stdio.h>
+#include "funcs.h"
+int main(void)
+{
+ int min,max;
+ int *primes, n;
+ scanf ("%d %d",&min,&max);
+ primes = findPrimes(min,max,&n);
+ printArray(primes,n);
+ return 0;
+}*/
+
 #include <stdlib.h>
 
 int isPrime(int i)
