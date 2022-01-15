@@ -1,8 +1,13 @@
+/* Create the following functions:
+chars - receive a string and returns (call by reference) the character with the highest frequency in the string and (again call by reference) the character with the lowest frequency in the string.
+In case there are 2 characters that have the same frequency, the one which is left to the other must be chosen.
+reverse - receive a string and returns a new string with the content of the first one reversed ("abc"->"cba")
+Main program is already given. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-/*
 void chars(char *s, char *most_seen, char *less_seen);
 char *reverse (char *s);
 
@@ -20,7 +25,7 @@ int main()
     printf("%c\n%c\n",mostSeen,lessSeen);
     return 0;
 }
-*/
+
 void chars(char *s, char *most_seen, char *less_seen)
 {
     int i, k, j, flag;
