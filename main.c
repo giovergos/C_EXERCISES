@@ -1,8 +1,13 @@
+/* Create the function applyMask for the following program which is already given.
+The function receives 2 same-length strings (S and M). The first one includes a text and the second one a sequence of the characters '0', '1', '2',..,'9'.
+It must returns a new string which icludes the characters of S as many times as the counterpart number of M.
+For example: If the strings are "hello" and "12003", the new string must includes: 1 time the 'h', 2 times the 'e' and 3 times the 'o'. Thus, the new string is "heeooo". */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <malloc.h>
-/*
+
 char *applyMask(char *,char *);
 
 int main()
@@ -28,7 +33,7 @@ int main()
     printf ("%s\n",r);
     return 0;
 }
-*/
+
 char* applyMask(char* s, char* mask)
 {
     char* r=malloc(sizeof(char));
