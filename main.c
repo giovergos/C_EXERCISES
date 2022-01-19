@@ -1,8 +1,14 @@
+/* Create the two needed functions for the following program:
+ArrayAvg - receives an array of integers and its size, and returns:
+a) true, if the average number can be calculated, otherwise false
+b) the average number (called by reference)
+Davg - receives an array of integers and its size, and returns a new array whose every element equals to the corresponding first array's element, minus the average number */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-/*
+
 // average of array
 bool ArrayAvg(int *A, int n,float *avg);
 //return a new array B where B[i] = A[i]-avg(A)
@@ -30,7 +36,7 @@ int main()
     }
     return 0;
 }
-*/
+
 bool ArrayAvg(int *A, int n, float *avg)
 {
     if(n<=0)
