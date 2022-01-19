@@ -1,3 +1,7 @@
+/* Make a program which reads an integer from the user (e.g. k) and opens a text file named "a.txt". Then it reads as many string as there are in the file (every string has a <1000 length and it can includes spaces).
+The program replaces every character of every string, with the one which is k positions next in ASCII table (e.g for "abc" and k=3, the new string is "def"). It shows the new strings, every one on a new line.
+Also, it creates a new text file named "o.txt" which indludes all the new strings (every one on a new line). */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
